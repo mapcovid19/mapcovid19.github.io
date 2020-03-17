@@ -98,7 +98,7 @@ var OpenFileDlg = (function() {
 
     $('#covid_usa').click(function(e){
       $.ajax({
-        url:  "https://webgeoda.github.io/data/states.geojson",
+        url:  "https://mapcovid19.github.io/data/states.geojson",
         dataType :  'text',
         beforeSend : function(xhr) {
           $('#progress_bar_openfile').show();
